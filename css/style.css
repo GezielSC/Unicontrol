@@ -1,0 +1,687 @@
+* {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    z-index: 999;
+}
+
+.nav-menu {
+    text-align: right;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.nav-menu li:hover {
+    cursor: pointer;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10%;
+    text-align: left;
+    width: 400px;
+ }
+
+ .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px; 
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #263c6a;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active{
+    background-color: #ffffff;
+}
+
+.carousel-caption h1 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.carousel-caption h2 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 590px 0px 0px 0px;  
+}
+
+.carousel-caption p {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: absolute;
+    z-index: 999;
+    top: 25%;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.card {
+    background-color: #f7f6fb;
+    border: none;
+}
+.historia {
+    width: 100%;
+    height: 600px;
+    background-color: #f7f6fb;
+    padding-top: 5%;
+}
+
+.historia h2 {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 30px;
+    color: #263c6a;
+    font-weight: 600;
+}
+
+.historia img {
+    width: 390px;
+    margin: 110px 0px 0px 0px;
+    float: right;
+    vertical-align: top;
+}
+
+.historia p {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #444346;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.botao {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #263c6a;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #263c6a;
+    border: 1px solid #263c6a;
+}
+
+.espec-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+.spec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 3%;
+}
+
+.spec h1 {
+    font-size: 30px;
+    color: #444346;
+    margin-bottom: 20px;
+}
+
+.spec p {
+    font-size: 14px;
+    color: #444346;
+}
+
+.spec-itens {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.spec-itens li {
+    width: 19.5%;
+}
+
+.spec img {
+    width: 30%;
+}
+
+.spec-itens h2 {
+    font-size: 20px;
+    color: #263c6a;
+    font-weight: 600;
+    margin: 20px 0px 30px 0px;
+}
+
+.spec-itens p {
+    font-size: 14px;
+    color: #444346;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.missao {
+    width: 100%;
+    height: 540px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../img/missaofoto.png') 
+}
+
+.missao-itens {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+}
+
+.missao-itens h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.missao p {
+    color: #ffffff;
+    line-height: 18px;
+    margin-bottom: 70px;
+}
+
+.missao button {
+    font-weight: 500;
+    background-color: #263c6a;
+    color: #ffffff;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    transition: 0.3s;
+}
+
+.missao button:hover {
+    background-color: #ffffff;
+    color: #263c6a;
+    border: 1px solid #263c6a;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    background-color: #f7f6fb;
+}
+
+.servicos h1 {
+    font-size: 30px;
+    color: #444346;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    font-size: 14px;
+    color: #444346;
+}
+
+.servicos-itens {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicos-itens li {
+    width: 19.5%;
+    box-shadow: 1px 1px 10px rgb(90, 89, 89);
+    transition: 0.1s;
+}
+
+.servicos-itens li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.servicos img {
+    width: 100%;
+}
+
+.servicos-itens h2 {
+    font-size: 20px;
+    color: #263c6a;
+    font-weight: 600;
+    margin: 20px 0px 30px 0px;
+}
+
+.servicos-itens p {
+    font-size: 14px;
+    color: #444346;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.servicos-itens button {
+    background-color: #ffffff;
+    color: #263c6a;
+    width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #263c6a;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.servicos-itens button:hover {
+    background-color: #263c6a;
+    color: #ffffff;
+}
+
+.servicos {
+    font-family: 'Tahoma', sans-serif;
+    padding: 2%;
+    text-align: center;
+}
+
+.servicos h1 {
+    font-size: 30px;
+    color: #444346;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    font-size: 14px;
+    color: #444346;
+}
+
+.blog {
+    font-family: 'Tahoma', sans-serif;
+    padding: 2%;
+    text-align: center;
+}
+
+.blog h1 {
+    font-size: 30px;
+    color: #444346;
+    margin-bottom: 10px;
+}
+
+.linha {
+    align-self: center;
+    width: 50px;
+    border: 1px solid #263c6a;
+    margin-bottom: 20px;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog p {
+    font-size: 14px;
+    color: #444346;
+}
+.blog-itens {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog-itens li {
+    width: 20%;
+    box-shadow: 1px 1px 10px rgb(90, 89, 89);
+    text-align: center;
+    transition: 0.1s;
+}
+
+.blog-itens li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.blog-itens h2 {
+    font-size: 17px;
+    color: #444346;
+    font-weight: 600;
+    margin: 20px 0px 30px 0px;
+}
+
+.blog-itens p {
+    font-size: 14px;
+    color: #444346;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding: 2%;
+}
+
+.blog-itens button {
+    background-color: #ffffff;
+    color: #263c6a;
+    width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #263c6a;
+    margin-bottom: 30px;
+}
+
+.botaovermais {
+    background-color: #ffffff;
+    color: #263c6a;
+    width: 8%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #263c6a;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.botaovermais:hover {
+    background-color: #263c6a;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #263c6a;
+    color: #ffffff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+@media (max-width: 1200px) {
+    .logo {
+      width: 20%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 600; 
+    }
+    
+    .carousel-caption p {
+        margin: 0;
+        font-size: 15px;
+        color: #ffffff;
+        line-height: 20px;
+    }
+
+    .historia {
+        height: 500px;
+    }
+
+    .historia h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .historia img {
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        border-radius: 2px;
+    }
+
+    .botao {
+        font-size: 18px;
+        padding: 10px 30px;
+        margin: 15px auto;
+    }
+
+    .servicos-itens {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .servicos-itens li {
+        width: 100%;
+        box-shadow: 1px 1px 10px rgb(90, 89, 89);
+    }
+
+    .blog-itens {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .blog-itens li {
+        width: 100%;
+        box-shadow: 1px 1px 10px rgb(90, 89, 89);
+    }
+
+    .botaovermais {
+        width: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 20px;
+        font-weight: 600; 
+    }
+    
+    .carousel-caption p {
+        margin: 0;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .historia h2 {
+        font-size: 25px;
+    }
+
+    .historia p {
+        font-size: 15px;
+    }
+
+    .botaovermais {
+        width: 15%;
+    }
+
+    .blog-itens li {
+        width: 100%;
+        box-shadow: 1px 1px 10px rgb(90, 89, 89);
+    }
+}
+
+@media (max-width: 780px) {
+      .carousel-caption h1 {
+        font-size: 20px;
+      }
+      
+      .carousel-caption h2 {
+        font-size: 14px;
+      }
+      
+      .carousel-caption p {
+        font-size: 10px;
+      }
+  
+      .historia {
+        height: 450px;
+      }
+  
+      .historia h2 {
+        font-size: 20px;
+      }
+  
+      .historia img {
+          width: 40%;
+      }
+  
+      .botao {
+          font-size: 14px;
+          padding: 8px 18px;
+      }
+
+    .spec-itens {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .spec-itens li {
+        width: 100%;
+    }
+  
+      .missao button, .servicos button {
+        font-size: 14px;
+        width: 40%;
+        padding: 10px;
+      }     
+}
+
+@media (max-width: 570px) {
+    .historia {
+        height: 500px;
+        padding: 10%;
+    }
+  
+    .botao {
+          width: 30%;
+    }
+
+    .spec-itens {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .servicos-itens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicos-itens h2 {
+        font-size: 10px;
+        color: #263c6a;
+        font-weight: 600;
+        margin: 20px 0px 30px 0px;
+    }
+    
+    .spec-itens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spec-itens li {
+        width: 100%;
+    }
+
+    .servicos-itens h2 {
+        font-size: 10px;
+        color: #263c6a;
+        font-weight: 600;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .botaovermais {
+        width: 25%;
+    }
+
+    .rodape {
+        margin: 0 auto;
+        gap: 50px;
+    }
+
+    .nav-menu a {
+        font-size: 10px;
+    }
+}
